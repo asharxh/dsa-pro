@@ -13,6 +13,6 @@ public class ReverseaNum {
             rev = rev * 10 + digit; //rev start with 0 then work it previous rev value to make new rev digit
             n/=10;
         }
-        System.out.println(rev);
+        System.out.println(" Reverse = " + rev);
     }
 }
