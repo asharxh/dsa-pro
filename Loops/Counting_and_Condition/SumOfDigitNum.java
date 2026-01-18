@@ -12,6 +12,6 @@ public class SumOfDigitNum {
             sum +=d%10;
             d/=10;
         }
-        System.out.println(sum);
+        System.out.println("Sum = " + sum);
     }
 }
