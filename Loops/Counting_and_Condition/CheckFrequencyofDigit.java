@@ -9,7 +9,6 @@ public class CheckFrequencyofDigit {
         int n = sc.nextInt();
         int target = 3;
         int freqcount = 0;
-
         while (n!=0){
             int digit = n%10;
             if (digit == target){
