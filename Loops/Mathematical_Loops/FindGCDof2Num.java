@@ -6,9 +6,9 @@ public class FindGCDof2Num {
         int n2 = 18;
 
         while (n2!=0){
-            int temp = n2;
+            int reminder = n2;
             n2 = n1%n2;
-            n1 = temp;
+            n1 = reminder;
         }
         System.out.println("GCD = " +n1);
     }
