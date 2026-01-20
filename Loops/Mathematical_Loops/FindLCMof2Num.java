@@ -9,7 +9,6 @@ public class FindLCMof2Num {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int x = a, y =b;
-
         while (b!=0){
             int reminder = b;
             b = a%b;
