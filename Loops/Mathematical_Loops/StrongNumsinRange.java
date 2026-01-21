@@ -9,7 +9,6 @@ public class StrongNumsinRange {
         for (int num=start; num<=end; num++){
             int temp = num;
             int sum =0;
-
             while (temp!=0){
                 int digit = temp%10;
 
