@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Loops" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Math and Numbers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Patterns" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
