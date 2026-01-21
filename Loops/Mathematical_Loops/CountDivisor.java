@@ -11,9 +11,9 @@ public class CountDivisor {
         int sum = 0;
         for(int i=1; i<=n; i++){
             if(n%i==0){
-                count++;
-                System.out.println(i); //first i printed all divisor in row then count
-                sum += i;
+                count++; //this will count
+                System.out.print(i + " "); //print all divisor in row
+                sum += i; //this will give me sum of all divisor
             }
         }
         System.out.println("Sum = "+ sum);
