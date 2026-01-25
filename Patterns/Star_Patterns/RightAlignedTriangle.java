@@ -5,11 +5,11 @@ public class RightAlignedTriangle {
         int n = 5;
         for (int i = 0; i<=n; i++){
             for (int space =1; space<=n-1; space++){
-                System.out.println(" ");
+                System.out.print(" ");
 
             }
             for (int star =1; star<=i; star++){
-                System.out.println("*");
+                System.out.print("*");
             }
             System.out.println();
         }
