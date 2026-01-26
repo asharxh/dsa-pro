@@ -22,5 +22,4 @@ public class HallowSquare {
 /*
 TO print Hallow Square or anything Loops will always be same. If condition is main here to print star and skip
 using space to make a hollow.
-
  */
