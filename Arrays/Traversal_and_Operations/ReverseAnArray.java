@@ -24,7 +24,7 @@ public class ReverseAnArray {
 
 /*
 Note for me:
-I am Used Swaping logic here.
+I am Used Two Pointer Techniques and Swaping logic here.
 1. first select (left) first element of array and (right) last element of array.
 2. Using loop till left index is less than right index left++ and right--.
 3. Now swaping logic temp = left, left = right, right = temp.
