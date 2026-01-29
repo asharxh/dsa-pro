@@ -34,3 +34,8 @@ public class RearrArrAlterEvenOdd {
         }
     }
 }
+
+/*
+for positive and Negative alternate arrangement, just then if conditional statement. if(arr[i] >= 0) for positive
+and else statement after that for negative
+ */
