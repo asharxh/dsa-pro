@@ -21,3 +21,4 @@ public class SepOddEven {
 }
 
 // I am printing Even first , Odd Later
+//To print positive element or Negative I can just this state to arr[i] >= 0; or arr[i] < 0;
