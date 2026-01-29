@@ -25,3 +25,5 @@ public class MoveAll0ToEnd {
 
 
 //I used same logic that also applied for positive negative separation, even odd separation
+//To move all zero at beginning just change first if condition and make it , last if condition first
+// program start executing from if(arr[i]==0){ result[index++] = arr[i];
