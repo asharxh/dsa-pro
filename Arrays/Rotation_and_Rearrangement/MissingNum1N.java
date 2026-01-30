@@ -29,5 +29,5 @@ public class MissingNum1N {
 first I defined variable N to start looping through each value from 1 to N using loop,
 to find missing N value must be equal to the highest number in array. So I can check all of them one by one.
 After that I loop through entire array that I created and verify that arr[i] is present in array must be
-equal to current value of num (found = true) if false then missing = num;
+equal to current value of num (found = true) if false then missing = num; and if no missing result = -1;
  */
