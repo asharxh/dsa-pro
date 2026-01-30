@@ -1,6 +1,6 @@
 package Rotation_and_Rearrangement;
 
-public class ElementAppearOnce {
+public class SingleNumber {
     public static void main(String[] args) {
         int[] nums = {1, 2, 3, 4, 2, 3, 2,3,1,1,2,3};
         int single = -1;
