@@ -24,4 +24,5 @@ public class ElementAppearOnce {
 
 /*
 This is brute force approach O(n2). Its not optimal
+For LC 136 and 137 , I have to provide better solution
  */
