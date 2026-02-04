@@ -1,6 +1,6 @@
 package Subarrays_and_Fixed_Targets;
 
-public class SortestSubarrWSK {
+public class ShortestSubarrWSK {
     public static void main(String[] args) {
         int[] arr = {4,2,3,1,2,2,5};
         int k =5;
