@@ -6,9 +6,9 @@ public class PalindromeString {
         String str = "A man, a plan";
         int l = 0;
         int r = str.length() - 1;
-
         boolean isPalindrome = true;
         while (l<r){
+
             char cl = str.charAt(l);
             char cr = str.charAt(r);
 
