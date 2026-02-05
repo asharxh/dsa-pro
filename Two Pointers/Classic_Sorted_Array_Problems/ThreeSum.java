@@ -28,7 +28,7 @@ public class ThreeSum {
                     while (l<r&&arr[r] == arr[r+1])
                         r--;
                 }
-                else if(sum<0){
+                else if(sum<target){
                     l++;
                 }
                 else {
