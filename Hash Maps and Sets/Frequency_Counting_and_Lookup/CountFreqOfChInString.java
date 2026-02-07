@@ -2,7 +2,7 @@ package Frequency_Counting_and_Lookup;
 
 import java.util.HashMap;
 
-public class CountFreqOfStrInArr {
+public class CountFreqOfChInString {
     public static void main(String[] args) {
         String s = "ashar";
 
