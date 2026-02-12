@@ -1,6 +1,5 @@
 package Frequency_Counting_and_Lookup;
 
-import java.util.HashMap;
 import java.util.HashSet;
 
 public class FirstRepElement {
@@ -18,3 +17,11 @@ public class FirstRepElement {
         }
     }
 }
+
+/*
+Note for me:
+first i created an arr then HashSet with name set
+HashSet start from 0, then i use loop to iteration in array, if set find element that already
+add in set set.add(arr[i]);
+then if statement will be true element that repeating first will be printed and loop will break.
+ */
