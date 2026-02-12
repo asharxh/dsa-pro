@@ -18,3 +18,25 @@ public class FirstNonRepCh {
         }
     }
 }
+
+/*
+Note for me :
+first i created a string named ashar then created map name hashmap with character key and interger value mean no
+of time that particualar character is appeared.
+example
+a - 2
+s - 1
+h - 1
+r - 1
+first loop Counting frequency
+It converts the string into a character array:
+['a','s','h','a','r']
+example
+map.getOrDefault('a',0) = 0
+0 + 1 = 1
+map.put('a',1)
+a=1
+Second loop — Finding first non-repeating character
+if(map.get(s.charAt(i))==1){
+Check if this character occurs exactly once in the string
+ */
