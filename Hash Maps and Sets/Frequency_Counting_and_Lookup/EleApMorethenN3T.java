@@ -22,3 +22,10 @@ public class EleApMorethenN3T {
         System.out.println(result);
     }
 }
+
+/*
+Note for me:
+I created a List to store results
+then Add all elements that satisfy > n/3
+at last Return the list
+ */
