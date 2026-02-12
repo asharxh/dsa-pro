@@ -19,3 +19,10 @@ public class CheckDuplicate {
         System.out.println(duplicate);
     }
 }
+
+/*
+Note for me :
+created boolean and assumed its false then loop through each element using for loop.
+now check if(!set.add(num)) HashSet.add(element) returns a boolean
+So, set.add(num) == false, duplicate found. Means adding fails, the number is already present - now duplicate.
+ */
