@@ -14,6 +14,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Sliding WIndow" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Fast and Slow Pointer" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Hash Maps and Sets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Linked List" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
