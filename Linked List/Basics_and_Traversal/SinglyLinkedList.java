@@ -27,7 +27,7 @@ public class SinglyLinkedList {
 
         Node head = first;
 
-        System.out.println("Linked List Traversal: ");
+        System.out.println("Singly Linked List: ");
 
         Node temp = head;
 
@@ -38,3 +38,11 @@ public class SinglyLinkedList {
         System.out.println("null");
     }
 }
+
+
+/*
+Note for me:
+I used temp pointer for traversal to keep head safe, if while (head!=null){ sout(head.data); head = head.next;
+head = null , mean i lost the list permanently
+static class Node is important for all listed list problems.
+ */
