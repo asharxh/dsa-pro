@@ -38,3 +38,14 @@ public class FindMax {
 
     }
 }
+
+
+//Note for me :
+//To find sum of all elements:
+//sum += temp.data; }
+//temp = temp.next;
+
+/*
+Check Empty :
+if(head==null)
+ */
