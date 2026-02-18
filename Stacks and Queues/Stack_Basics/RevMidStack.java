@@ -6,9 +6,9 @@ class StackR {
     private int top;
 
     public StackR(int size) {
-        maxSize =size;
+        maxSize = size;
         stackArray = new int[maxSize];
-        top= -1;
+        top = -1;
     }
 
     public boolean isEmpty() {
@@ -64,9 +64,29 @@ class StackR {
         reverseAStack();
         insertAtBottom(temp);
     }
+
+    public void findMiddleIterative() {
+        if (isEmpty()) {
+            System.out.println("stack is empty");
+            return;
+        }
+        int size = top + 1;
+        int middle = size / 2;
+        StackR tempStack = new StackR(maxSize);
+        for (int i = 0; i < middle; i++) {
+            tempStack.push(pop());
+        }
+        int middleElement = pop();
+        System.out.println("middle element: " + middleElement);
+        push(middleElement);
+        while (!tempStack.isEmpty()) {
+            push(tempStack.pop());
+        }
+    }
+
 }
 
-public class ReverseStack {
+public class RevMidStack {
     public static void main(String[] args) {
         StackR stackR = new StackR(5);
 
@@ -78,5 +98,12 @@ public class ReverseStack {
         stackR.reverseAStack();
         System.out.println("reversed stack: ");
         stackR.display();
+        stackR.findMiddleIterative();
     }
 }
+
+
+/*
+Note for me:
+To find Middle Element inn Stack i used iterative approach, for more optimal use recursive is best.
+ */
