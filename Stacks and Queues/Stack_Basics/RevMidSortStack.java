@@ -84,21 +84,74 @@ class StackR {
         }
     }
 
+    public int peek() {
+        if (isEmpty()) {
+            return -1;
+        }
+        return stackArray[top];
+    }
+
+    public void deleteMiddle() {
+        if (isEmpty()) {
+            System.out.println("Stack is empty");
+            return;
+        }
+        int size=top+1;
+        deleteMiddleUtil(size, 0);
+    }
+
+    private void deleteMiddleUtil(int size, int current) {
+        int temp=pop();
+        if (current ==size/2) {
+            return;
+        }
+        deleteMiddleUtil(size, current + 1);
+        push(temp);
+    }
+
+    public void sortStack() {
+        if (!isEmpty()) {
+            int temp =pop();
+            sortStack();
+            sortedInsert(temp);
+        }
+    }
+    private void sortedInsert(int value) {
+        if (isEmpty() || value> peek()) {
+            push(value);
+            return;
+        }
+        int temp= pop();
+        sortedInsert(value);
+        push(temp);
+    }
 }
 
-public class RevMidStack {
+public class RevMidSortStack {
     public static void main(String[] args) {
-        StackR stackR = new StackR(5);
+        StackR stackR = new StackR(10);
 
-        stackR.push(10);
-        stackR.push(20);
-        stackR.push(30);
+        stackR.push(11);
+        stackR.push(28);
+        stackR.push(31);
+        stackR.push(60);
+        stackR.push(23);
+        stackR.push(81);
+        stackR.push(35);
+        stackR.push(91);
+        stackR.push(9);
         System.out.println("original Stack:");
         stackR.display();
         stackR.reverseAStack();
         System.out.println("reversed stack: ");
         stackR.display();
         stackR.findMiddleIterative();
+        stackR.deleteMiddle();
+        stackR.display();
+        stackR.sortStack();
+        System.out.println("Stack is sorted: ");
+        stackR.display();
+        System.out.println("top element: " + stackR.peek());
     }
 }
 
