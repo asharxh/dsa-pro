@@ -94,4 +94,8 @@ Before:
 top ->20 -> 10 -> null
 After:
 top -> 30 -> 20 -> 10 -> null
+pop() working:
+remove 30 by moving top. top = top.next;
+then stack linked list will become top → 20 -> 10 -> null
+because noo deletion required Java garbage collector frees 30 automatically
  */
