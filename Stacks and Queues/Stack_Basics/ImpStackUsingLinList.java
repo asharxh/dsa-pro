@@ -77,3 +77,21 @@ public class ImpStackUsingLinList {
     }
 }
 
+
+
+/*
+Note for me:
+array stack is a static stack (fixed capacity = 5).
+A linked-list stack is dynamic, it grows until memory is exhausted (no overflow due to size limit).
+Array stack uses index (top)
+Linked list stack uses pointer (top node)
+top always points to the latest inserted node.
+next stores the address of the next element.
+newNode.next = top;
+top = newNode;
+means:
+Before:
+top ->20 -> 10 -> null
+After:
+top -> 30 -> 20 -> 10 -> null
+ */
