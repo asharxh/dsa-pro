@@ -39,3 +39,14 @@ public class RotateImage {
         }
     }
 }
+
+/*
+Note for me:
+first find transpose of matrix
+after transpose
+1 4 7
+2 5 8
+3 6 9
+then Reverse each row - similar way that used to reverse an array
+this will be final ans to rotate an image
+ */
